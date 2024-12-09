@@ -16,7 +16,7 @@ class BaseGame:
         raise NotImplementedError("Этот метод должен быть переопределён в наследуемом классе.")
 
 
-# Логика игры (наследуется от BaseGame)
+# Логика игры (наследуется от BaseGame )
 class GameLogic(BaseGame):
     def __init__(self):
         super().__init__()
